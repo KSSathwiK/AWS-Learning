@@ -51,7 +51,14 @@ Public IP address = Yes
 
 ![image](https://github.com/user-attachments/assets/a57d0421-1384-4a10-ba6c-c39e781fe369)
 
- 
+Now, You can the Public EC2 as it is connected to Internet Gateway , whereas Private is not connected.
+Through Public EC2 I am accessing Private EC2 as I have mentioned IP address of it in Security Group.  
+
+NACL is already created for the 2 Subnets  
+
+
+ ![image](https://github.com/user-attachments/assets/81a3aa8d-2c22-4947-8151-8e14eec8c930)
+
 
 
 
