@@ -1,3 +1,5 @@
+# EC2 Creation #
+
 Instance name = Instance-1.  
 AMI = Amazon Linux  
 Type = t2.micro  
