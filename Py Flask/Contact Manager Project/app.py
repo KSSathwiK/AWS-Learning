@@ -6,10 +6,10 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # MySQL configurations
-app.config['MYSQL_HOST'] = 'database-1.cx4su6kqcoz8.ap-south-1.rds.amazonaws.com'
-app.config['MYSQL_USER'] = 'admin'
-app.config['MYSQL_PASSWORD'] = 'Sath7wik731'
-app.config['MYSQL_DB'] = 'mydb'
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'Sath7wik73123***'
+app.config['MYSQL_DB'] = 'Contact'
 
 mysql = MySQL(app)
 
